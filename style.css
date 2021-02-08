@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+  
+body {
+    font-family: 'Poppins';
+  }
+  header  {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  #first-row {
+
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  
+  #second-row {
+
+    padding: 0 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .item-0 {
+   border: 3px solid green;
+   display: flex;
+   justify-content: center;
+ }
+
+.items-0: nth-child (1) {
+flex: 1;
+}
+
+.items-0 : nth-child (2) {
+  flex: 0.5;
+}
+
+.items-0 : nth-child (3) {
+flex: 5;
+}
+
+.items-0 : nth-child (4) {
+flex: 1
+}
+
+#npm-logo {
+  width: 100px;
+}
+
+#magnifying-glass {
+ width: 20px;
+}
+
+#button-search {
+  border:none;
+  color:white;
+  padding: 15px 60px 15px 60px;
+  background-color: #FB3B49;
+  color: white;
+}
+
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: bold;
+}
+
+#container-1 {
+  background-color:  rgba(232,217,217,.3);
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  height: 400px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.items:nth-child(1) {
+  margin: 10px;
+}
+
+.items:nth-child(2) {
+padding-bottom: 30px;
+}
+
+.items:nth-child (3) {
+  
+}
+
+#button-1 {
+  padding: 15px 60px 15px 60px;
+  background-color: #FB3B49;
+  color: white;
+  box-shadow: 8px 8px 0px rgba(251,59,73,.2);
+}
+
+#button-2 {
+  padding: 15px 60px 15px 60px;
+}
+
+
+#containers-2 {
+  background-color: rgba(255,204,53,.4);
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.items-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.items-2:nth-child(1) {
+  padding-top: 100px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.items-2:nth-child(2) {
+padding: 16px 32px 16px 32px;
+background-color: yellow;
+transform: skew(9deg,0deg);
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-style: italic;
+
+}
+
+.items-2:nth-child(3) {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+text-align: center;
+}
+
+#container-3 {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-around;   /** -- Je ne comprends pas pourquoi mon space around n'a pas d'effet ?  --**/
+  align-items: center;
+
+  margin-top: 60px;   
+}
+
+  .items-3 {   
+    width: 300px;
+    display: flex;   
+    flex-direction: column;   
+  } 
+
+  /** -- J'aurais aimé cibler mes images de la même manière que mes H6 .items-3 > image mais je ne comprends pas pourquoi ça ne fonctionne pas ?? --**/  
+  
+  .icon {   width: 50px; } 
+  
+
+  .items-3 > h6 {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+#container-4{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#button-4 {
+  padding: 15px 60px 15px 60px;
+  background-color: black;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
+
+
